@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Midias em HTML5</title>
+    <style>
+        body{
+            background-color: blanchedalmond;
+        }
+    </style>
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+    <p>tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu site</p>
+ 
+    
+    <picture>
+       <source media="(max-width: 700px)" srcset="img-gimp/img-p.png" type="image/png">
+       <source media="(max-width: 1000px)" srcset="img-gimp/img-m.png" type="image/png">
+
+        <img src="img-gimp/img-g.png" alt="imagem flexivel">
+    </picture>
+    <h1>reproduzindo audio</h1>
+    <p>vamos reproduzir algums audios</p>
+    <!--<audio src="songs/percussion.mp3"  controls autoplay></audio>-->
+
+    <audio preload="metadata" controls loop>  
+        <source src="songs/action-music.mp3" type="audio/mpeg"> 
+        <source src="songs/action-music.ogg" type="audio/ogg">
+        <source src="song/action-music.wav" type="audio/wav">
+        <p>infelizmente seu navegador nao consegui tocar musica</p>
+    </audio>
+    <hr>
+    <a href="songs/action-music.mp3" download>download aqui</a>
+
+    
+
+
+</body>
+</html>

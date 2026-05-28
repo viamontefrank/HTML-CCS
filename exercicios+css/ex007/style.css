@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* en html e id e em css e # */
+/* en html e class e em css e . */
+body{
+    background-color: #329ad683;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color:#1a6b1d;
+}
+
+h1#principal{
+    text-align: center;
+    background-color: #1a6b1da1;
+    color: white;
+}
+
+h1.basico{
+    background-color: palevioletred;
+}
+
+h2{
+    color: #1FA332;
+}
+
+.basic{
+    color: yellow;
+    background-color: black;
+
+}
+
+h2.mid{
+    background-color: black;
+    color: blue;
+}
+h2.advance{
+    color: red;
+    background-color: black;
+}

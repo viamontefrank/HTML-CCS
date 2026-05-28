@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+*{
+    
+    font-family: cursive ;
+}
+
+h1, h2{
+    text-align: justify;
+   font: italic lighter 3em 'work sans', sans-serif;
+}
+
+body{
+   
+    min-height: 100vh;
+    background-image: linear-gradient( 45deg, #CCDAD1, #9CAEA9, #788585, #6F6866 );
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    width: 75vw ;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #494e4b ;
+
+}
+
+p{
+    text-align: justify;
+}

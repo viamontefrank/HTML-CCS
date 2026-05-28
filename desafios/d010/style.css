@@ -1,0 +1,179 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+main{
+    text-align: center;
+   margin:0px 200px 0px 200px;
+   background-color: rgb(255, 255, 255);
+   min-height: 100vh;
+    padding: 1px; 
+   
+}
+
+h1#start3{
+    margin: 0px;
+}
+nav>a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    
+    padding: 10px 10px 0px 10px;
+   
+   
+
+}
+nav>a:hover{
+    font-weight: bolder;
+    text-decoration: underline;
+     background-color: #47cd81fb;
+}
+nav>a:active{
+   
+    color: black;
+}
+#yutu>iframe{
+    /* display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin: auto;
+    */
+    width: 100%;
+    aspect-ratio: 16/9;
+    border: none;
+}
+
+div#yutu{
+    background-color: #185534;
+    padding: 20px 0px 20px  0px;
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+}
+
+body{
+    background-color: #e5d9ac9a;
+    margin: 0px;
+    min-width: 456px;
+}
+
+header{
+    text-align: center;
+    background-image: linear-gradient(to top,#185534,#247C4B , #37C576);
+    margin: 0px;
+    
+   
+
+}
+
+h1#start{
+    margin: 0px;
+    text-align: center;
+    color: white;
+}
+p#start2{
+    color: white;
+}
+
+header>nav{
+    text-align: left;
+     width: 100%;
+}
+
+
+
+h1{
+    font-family: 'idroid',Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding: 10px;
+}
+
+h2{
+    font-family: 'idroid',Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    color: #185534;
+    background-image: linear-gradient(to right,#18553483,#247c4c80 , #37c57725,  #88eeb62d );
+    
+}
+
+/* main>h2{
+  margin: 10px;
+} */
+p{
+    padding: 10px;
+    margin: 0px;
+}
+
+footer{
+    background-color: white;
+    padding: 20px;
+    margin:0px 200px 50px 200px;
+    border-radius: 0px 0px 10px 10px;
+    /* margin: auto;
+    width: 90%;
+    max-width: 900px; */
+}
+
+
+div#list{
+    background-color: #1edb3e49;
+    border-radius: 10px;
+}
+
+div#list>nav{
+    background-color: #247C4B;
+    border-radius: 10px 10px 0px 0px;
+}
+
+ul{
+    columns: 2;
+}
+ul>li:hover{
+   font-weight: bolder;
+   cursor: help;
+}
+
+div#rodape{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0px;
+    
+    
+}
+
+div#rodape>p{
+    margin: 0px;
+}
+
+.link{
+    color: #185534;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+a:hover{
+    text-decoration: underline;
+    font-weight: bolder
+}
+
+a:active{
+    color: black;
+   
+}
+
+img{
+    width: 80%;
+    max-width: 800px;
+    height: auto
+}
